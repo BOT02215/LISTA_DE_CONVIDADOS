@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title> Lista de Convidados </title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1> Lista de Convidados </h1>
+        <input type="text" placeholder="Insira o nome" id="convidado">
+        <button onclick="enviar()"> Enviar </button>
+        <hr>
+        <p id="primeira_lista"></p>
+        <hr>
+
+        <h1> Mostrar Lista </h1>
+        <button onclick="mostrar()"> Mostrar </button>
+        <p id="segunda_lista"></p>
+        <hr>
+
+        <h1> Organizar Lista </h1>
+        <button onclick="organizar()"> Organizar </button>
+        <p id="terceira_lista"></p>
+        <hr>
+
+        <input type="text" placeholder="Pesquisar nome" id="pesquisa">
+        <button onclick="procurar()"> Pesquisar </button>
+        <p id="nome_convidado"></p>
+    </center>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
